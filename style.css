@@ -1,0 +1,121 @@
+*{
+    font-family: sans-serif;
+    background-color: #FCFCFC;
+}
+.main-nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    
+}
+.vertical-line{
+    background-color: #DADADA;
+    /* background-color: red; */
+    width: 1px;
+    height: 32px;
+}
+.nav-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 90px;
+}
+.nav-right{
+    padding-right: 70px;
+}
+.nav-right-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.nav-right-list > li{
+    list-style-type: none;
+    padding-right: 30px;
+}
+#text-sticky{
+    text-align: center;
+    font-weight: bold;
+    background-color: #2F80ED;
+    position: fixed;
+    top: 60px;
+    width: 100%;
+}
+
+.image-arrow{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    margin-top: 180px;
+   
+}
+.main-hero{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.data{
+    margin-top: 20px;
+}
+.data:hover{
+    block-size: auto;
+}
+.course-work{
+    background-color: #ECF8FF;
+    height: fit-content;
+}
+.course-work>h5{
+    
+    color: #992FED;
+    background-color:#ECF8FF ;
+    text-align: center;
+}
+.course-work>h4{
+    color:#2F80ED ;
+    background-color: #ECF8FF;
+    text-align: center;
+}
+.course-work>img{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+   background-color: #ECF8FF;
+}
+.company{
+    margin-top: 40px;
+}
+#company-tags{
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+#company-text{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.alumini{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+
+
